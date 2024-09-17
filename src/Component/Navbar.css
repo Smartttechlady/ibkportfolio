@@ -1,0 +1,88 @@
+/* Navbar Background and Shadow */
+.custom-navbar {
+    background-color: black;
+    /* box-shadow: 0px 4px 10px rgba(0, 255, 0, 0.5); */
+    box-shadow: 0 0 3rem 0 #525c2b !important;
+
+  }
+  .logo {
+    width:40px; /* Adjust the size of the logo */
+    vertical-align: middle;
+  }
+  
+  /* Ensure the logo stays on the left */
+  .navbar-brand {
+    margin-right: auto; /* Keeps logo on the left */
+  }
+  
+ 
+  
+  /* Navbar Links */
+  .navbar-nav .nav-link {
+    color: #fff; /* Green link color */
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    /* transition: all 0.3s ease; */
+    transition: 3s linear;
+
+  }
+
+  .bi{
+    color: #BAE60A;
+  }
+  
+  .navbar-nav .nav-link i {
+    margin-right: 8px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black; /* Change text color on hover */
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Make Navbar Responsive */
+  @media (max-width: 992px) {
+    .navbar-nav {
+      margin-top: 10px;
+    }
+  
+    .navbar-nav .nav-link {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+
+.logo {
+    width: 30px; /* Adjust the size of the logo */
+    vertical-align: middle;
+  }
+  
+  /* Ensure the logo stays on the left */
+  .navbar-brand {
+    margin-right: auto; 
+    margin-left: 0.5rem;
+  }
+  
+
+    
+  }
+  
+  @media (max-width: 768px) {
+ 
+
+   
+      
+      /* Ensure the logo stays on the left */
+      .navbar-brand {
+        margin-right: auto; /* Keeps logo on the left */
+      }
+  }
+  
+  /* Custom Toggle Button Icon */
+  .navbar-toggler-icon {
+    background-color: #d4ed58;
+  }
+  

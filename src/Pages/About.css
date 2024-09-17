@@ -1,0 +1,103 @@
+
+.about-me-section {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.subtitle {
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.main-heading {
+    color: #BAE60A; 
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+
+.profile-pic {
+    max-width:60%;
+    border-radius: 50%;
+    border: 5px solid #BAE60A;
+}
+
+
+.info-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.info-box {
+    background-color: #f5f7f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.info-icon1 {
+    width: 30px;
+    height: 30px;
+    padding: 3.5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #202020;
+}
+
+.info-icon2 {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #202020;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+}
+
+
+.description-box {
+    border: 2px solid #BAE60A;
+    padding: 20px;
+    background-color: transparent;
+}
+
+
+@media (max-width: 768px) {
+    .profile-pic {
+        max-width: 60%;
+        margin-bottom: 20px;
+    }
+    .info-box {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-pic {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .main-heading {
+        font-size: 28px;
+    }
+}
